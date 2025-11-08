@@ -14,7 +14,7 @@ function NoteList({ onEdit }) {
   };
 
   const deleteNote = async (id) => {
-    await axios.delete(`http://127.0.0.1:8000/api/notes/${id}/`);
+    await axios.delete(`https://79f4c344-8657-4884-a593-44edd11602d9-00-3uwymczdy8vtf.pike.replit.dev/api/notes/${id}/`);
     fetchNotes();
   };
 
